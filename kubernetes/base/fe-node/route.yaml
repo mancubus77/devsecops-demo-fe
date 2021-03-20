@@ -7,7 +7,7 @@ spec:
   path: /
   to:
     kind: Service
-    name: frontend-svc
+    name: frontend
   port:
     targetPort: 8080
   tls:
