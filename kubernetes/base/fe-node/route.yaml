@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: frontend
+spec:
+  host: frontend-app.apps.ocp4.rhpg.org
+  path: /
+  to:
+    kind: Service
+    name: frontend-svc
+  port:
+    targetPort: 8080
+  tls:
+    termination: edge
