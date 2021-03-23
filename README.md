@@ -1,2 +1,2 @@
 # This is repo for Medium
-https://medium.com/me/stats/post/cd95e299dbbd
+https://cer6erus.medium.com/devsecops-with-tekton-and-openshift-cd95e299dbbd
